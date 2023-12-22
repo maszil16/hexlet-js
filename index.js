@@ -1,4 +1,5 @@
-import _ from "lodash";
+import getTwo from './src/index.js';
 
-console.log("Hello, Hexlet!");
-console.log(_.last(["one", "two"]));
+const string = getTwo();
+console.log(string);
+
